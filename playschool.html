@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
     <style>
         body {
             padding: 0;
@@ -16,12 +18,15 @@
         }
 
         .header {
-            background-color: blue;
+            background-color: rgb(5, 5, 91);
         }
 
         .left {
             display: inline-block;
             border: 2px solid white;
+            color: white;
+            margin: 30px;
+            font-family: "Fuzzy Bubbles", 'Courier New', Courier, monospace;
         }
 
         .mid {
@@ -29,13 +34,16 @@
             float: right;
             display: block;
             margin: 30px auto;
-            margin-right: 350px;
+            margin-right: 300px;
+            margin-top: 20px;
+            font-family: 'Alegreya Sans SC', sans-serif;
+            cursor: pointer;
         }
 
         .right {
             border: 2px solid black;
             position: absolute;
-            float: right;
+            right: 0;
         }
 
         .navbar li a {
@@ -55,6 +63,10 @@
 
         .navbar li{
             display: inline-block;
+        }
+
+        li:hover{
+            color: rgb(44, 92, 100);
         }
     </style>
 </head>
