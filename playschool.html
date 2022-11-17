@@ -65,8 +65,22 @@
             display: inline-block;
         }
 
-        li:hover{
-            color: rgb(44, 92, 100);
+        .navbar li a:hover{
+            color: rgb(33, 27, 67);
+            background-color: rgb(195, 124, 164);
+        }
+
+        button{
+            border: 2px solid rgb(12, 44, 66);
+            border-radius: 5px;
+            background-color: rgb(162, 186, 212);
+            padding: 10px;
+cursor: pointer;
+        }
+
+        button:hover{
+            background-color: rgb(13, 33, 72);
+            color: aqua;
         }
     </style>
 </head>
@@ -89,6 +103,16 @@
             <button>Support Us</button>
         </div>
     </header>
+    <br>
+    <form action="noaction.php">
+        <input type="text" name="" placeholder="Enter Child's Name">
+        <input type="text" name="" placeholder="Enter Child's Age">
+        <input type="text" name="" placeholder="Enter Child's Parent/Guardian">
+        <input type="text" name="" placeholder="Enter Contact No.">
+        <input type="text" name="" placeholder="Enter email id">
+
+
+    </form>
 </body>
 
 </html>
